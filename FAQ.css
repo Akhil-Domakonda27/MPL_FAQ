@@ -1,0 +1,55 @@
+body{
+    background: #E5E5E5;
+    color: black;
+}
+#faqHeader{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    color: #075475;
+    font-size: 48px;
+    line-height: 58px;
+    width: 446px;
+    height: 58px;
+
+}
+.faqDot{
+    padding-right: 0.70rem;
+}
+
+#accordion .faq .card-link{
+    position: relative;
+    display: block;
+}
+
+#accordion .faq .card-link .fas{
+    position: absolute;
+    right: 5px;
+    top:5px;
+    color: #DEAE00; 
+}
+
+.faqA {
+    padding: 1.00rem;
+    border-left: 2px solid #DEAE00;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 300px;
+    transition: all .5s ease-in;
+}
+
+.faqBorder{
+    border-top: 2px solid #DEAE00;
+    margin-bottom: 00.50rem;
+}
+
+#accordion .faq a{
+    color:#075475 ;
+}
+#accordion .faq a:hover{
+    color:#075475;
+}
+
+
